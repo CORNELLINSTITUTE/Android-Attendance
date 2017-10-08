@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity" >
+    <!-- orderInCategory is the order the menu will appear -->
+    <!-- showAsAction is to show the menu or hide -->
+    <item android:id="@+id/menu_red"
+        android:orderInCategory="1"
+        app:showAsAction="never"
+        android:title="Red"/>
+    <item android:id="@+id/menu_green"
+        android:orderInCategory="2"
+        app:showAsAction="never"
+        android:title="Green"/>
+</menu>
