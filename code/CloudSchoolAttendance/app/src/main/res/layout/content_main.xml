@@ -8,4 +8,17 @@
     tools:context="nz.ac.cornell.cloudschoolattendance.MainActivity"
     tools:showIn="@layout/activity_main">
 
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="71dp">
+
+        <TableLayout
+            android:id="@+id/table"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:shrinkColumns="1"
+            android:stretchColumns="1">
+        </TableLayout>
+    </ScrollView>
 </android.support.constraint.ConstraintLayout>
